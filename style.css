@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+      font-family: 'Roboto', sans-serif;
+ 
+    
+}
+    
+ .layerOne{
+ height: 500px;
+ width: 1200px;
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+ margin: 0 auto;
+ margin-top: 40px;    
+ background-image: url(https://images.wallpaperscraft.com/image/temple_mountains_lake_127937_1280x720.jpg);
+}
+    
+    
+    
+.imageLeft{
+ height: 500px;
+ width: 100%;
+background-size: cover;    
+border-top-left-radius: 15px;
+ -webkit-clip-path: polygon(96% 0, 52% 100%, 0 100%, 0 0);
+clip-path: polygon(96% 0, 52% 100%, 0 100%, 0 0);
+}    
+
+
+
+
+
+.opacityParent{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    align-items: center;
+    left: 240px;
+    top: 40px;
+   
+    
+}
+
+
+.whiteOpacity {
+    height: 500px;
+    width: 1200px;
+    background-color: white;
+    -webkit-clip-path: polygon(96% 0, 52% 100%, 100% 100%, 100% 0);
+    clip-path: polygon(96% 0, 52% 100%, 100% 100%, 100% 0);
+ opacity: 50%;
+  
+}
+
+
+.blackOpacity{
+    
+
+
+    height: 500px;
+    width: 1230px;
+    background-color: black;
+    -webkit-clip-path: polygon(96% 0, 52% 100%, 0 100%, 0 0);
+    clip-path: polygon(96% 0, 52% 100%, 0 100%, 0 0);
+    position: absolute;
+    left: -10px;
+ opacity: 70%;
+ border-top-left-radius: 15px;
+    
+    
+    }
+
+
+
+
+
+
+/* text layer controls */
+
+
+
+
+   .praleloRedcpy{
+
+    height: 33px;
+    width: 250px;
+    background-color: #EC3E32;
+    -webkit-clip-path: polygon(13% 0, 100% 0%, 100% 100%, 0 100%);
+    clip-path: polygon(13% 0, 100% 0%, 100% 100%, 0 100%);
+    margin-left: 700px;
+    top: 378px;
+    left: -31px;
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    
+
+}
+
+
+
+
+.logocpy{
+    height: 50px;
+    width: 50px;
+    background-color: #EC3E32;
+    margin-left: 200px;
+   
+
+}
+
+.logocpy h1{
+    font-size: 40px;
+    text-align: center;
+   
+    
+}
+
+
+
+.heroHeadingcpy h1{
+ font-size: 80px;
+ font-weight: 900;
+ padding-left: 200px;
+ line-height: 80px;
+}
+
+
+.timeDatecpy{
+    font-size: 10px;
+    color: #828186;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+
+.subTextcpy{
+    font-size: 12px;
+    margin-left: 300px;
+    margin-top: 20px;
+     color:  #9e9da2; 
+    
+}
+
+
+
+.scrollTipcpy{
+    margin-left: 300px;
+    margin-top: 60px;
+    color:  #828186; 
+    font-size: 12px;
+}
+
+
+
+.subText p{
+    font-size: 12px;
+    color: #828186;
+    margin-left: 300px;
+
+}
+
+
+
+
+
+
+.praleloRed p{
+    text-align: center;
+    padding: 20px;
+   
+        
+    }
+
+
+.logocpy h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.bar{
+    border-bottom: 1px solid #828186;;
+    width: 10%;
+    margin: 30px 0px 10px 300px ;
+}
+
+.layerThree{
+    position: relative;
+    left: 250px;
+    top: -710;
+    color: white;
+  
+}
+
+
+.praleloRedcpy > p{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+.finalText {
+    height: 350px;
+    width: 1203px;
+    color: black;
+    margin-top: 6px;
+    background-color: #EEEEEE;
+    text-align: center;
+    position: absolute;
+    left: -20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+
+}
+
+
+.finalText > h1{
+
+font-size: 32px;
+color: #292929;
+font-weight: 600;
+font-family: 'Raleway', sans-serif;
+padding-top: 100px;
+
+}
